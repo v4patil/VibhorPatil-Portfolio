@@ -1,26 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vibhor Patil | Android Developer</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 20px 0;
-            background: #f5f5f5;
-        }
-
-        img {
-            display: block;
-            width: 100%;
-            max-width: 1440px;
-            height: auto;
-            margin: auto;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vibhor Baban Patil — Android Developer specializing in Kotlin, Jetpack Compose and modern Android architecture.">
+  <title>Vibhor Baban Patil | Android Developer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="portfolio.png" alt="Vibhor Patil's Android Developer Portfolio">
+  <div class="page-layout">
+    <aside class="profile-card" id="home">
+      <div class="profile-heading">
+        <h1>Vibhor Baban Patil</h1>
+        <p class="role">Android Developer · 3 Years</p>
+      </div>
+
+      <p class="summary">
+        Android Developer with 3 years of experience building and shipping production Android applications for accounting and business workflows used by thousands of SME users. Experienced in Kotlin, Java, Jetpack Compose, modern Android architecture, offline-first systems, and performance optimization.
+      </p>
+
+      <div class="profile-links">
+        <a href="https://github.com/v4patil" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/vibhorbpatil14/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+
+      <a class="button primary full-width" href="assets/Vibhor-Patil-Resume.pdf" download>
+        <span aria-hidden="true">↓</span> Download Resume
+      </a>
+
+      <div class="contact-list">
+        <p><span aria-hidden="true">📍</span> Nagpur, India</p>
+        <p><span aria-hidden="true">☎</span> <a href="tel:+917350916174">+91 7350916174</a></p>
+        <p><span aria-hidden="true">✉</span> <a href="mailto:vibhorbpatil@gmail.com">vibhorbpatil@gmail.com</a></p>
+      </div>
+
+      <div class="sidebar-section" id="education">
+        <h2 class="eyebrow">Education</h2>
+        <div class="sidebar-divider"></div>
+        <p><strong>B.E. in Civil Engineering</strong></p>
+        <p>Priyadarshini J. L. College of Engineering</p>
+        <p>2019–2023</p>
+        <p>CGPA: 7.73/10</p>
+      </div>
+
+      <div class="sidebar-section">
+        <h2 class="eyebrow">Quick Contact</h2>
+        <div class="sidebar-divider"></div>
+        <p>Email: <a href="mailto:vibhorbpatil@gmail.com">vibhorbpatil@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/vibhorbpatil14/" target="_blank" rel="noopener noreferrer">linkedin.com/in/vibhorbpatil14</a></p>
+        <p>GitHub: <a href="https://github.com/v4patil" target="_blank" rel="noopener noreferrer">github.com/v4patil</a></p>
+        <a class="button primary contact-button" href="mailto:vibhorbpatil@gmail.com">Send an Email</a>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <a class="brand" href="#home">Vibhor Patil</a>
+        <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero section-card" id="about">
+        <h2>Building Reliable, High-Performance Android Applications</h2>
+        <p>Android Developer specializing in Kotlin, Jetpack Compose, modern Android architecture, offline-first synchronization, and performance optimization.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore My Projects</a>
+          <a class="button outline-light" href="assets/Vibhor-Patil-Resume.pdf" download>Download Resume</a>
+        </div>
+      </section>
+
+      <section class="section-card" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <article class="experience-item">
+          <div class="experience-heading">
+            <h3>Tacktile Systems Private Limited</h3>
+            <span class="date">September 2023 – Present</span>
+          </div>
+          <p class="job-title">Android Developer</p>
+          <p class="job-location">Nagpur, India</p>
+          <p>Business accounting and invoicing platform serving thousands of SME users.</p>
+          <ul class="bullet-list">
+            <li>Developed and maintained an Invoice Manager application.</li>
+            <li>Implemented features, bug fixes, and performance improvements.</li>
+            <li>Worked with Kotlin, Java, MVVM, Room, Retrofit, and WorkManager.</li>
+            <li>Contributed to Google Play Console release management.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section-card" id="projects">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <article class="project-card">
+          <h3>Expenzo — Expense Tracker</h3>
+          <p>An Android expense-tracking application built using modern Android architecture and Jetpack Compose.</p>
+          <div class="tags">
+            <span>Kotlin</span><span>Jetpack Compose</span><span>MVVM</span><span>Room</span>
+            <span>Coroutines</span><span>Flow</span><span>Hilt</span><span>JUnit</span><span>Mockito</span>
+          </div>
+          <h4>Key Highlights</h4>
+          <ul class="bullet-list">
+            <li>Built the application using Jetpack Compose and modern Android architecture.</li>
+            <li>Implemented local data persistence using Room and reactive UI using ViewModel and Kotlin Flow.</li>
+            <li>Wrote unit tests using JUnit and Mockito.</li>
+            <li>Published and managed the application on Google Play, including release builds, testing, versioning, and production deployment.</li>
+          </ul>
+          <div class="project-actions">
+            <!-- Replace this profile link with the Expenzo Google Play listing when available. -->
+            <a class="button primary" href="https://github.com/v4patil" target="_blank" rel="noopener noreferrer">View Developer Profile</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>News App — Android Architecture Migration</h3>
+          <p>An Android News application demonstrating the migration from XML layouts and Dagger 2 to Jetpack Compose and Hilt.</p>
+          <div class="tags">
+            <span>Kotlin</span><span>XML</span><span>Jetpack Compose</span><span>Retrofit</span>
+            <span>MVVM</span><span>Dagger 2</span><span>Hilt</span><span>Coroutines</span><span>Flow</span><span>StateFlow</span>
+          </div>
+          <h4>Key Highlights</h4>
+          <ul class="bullet-list">
+            <li>Evolved the same codebase through three stages: XML + Dagger 2 → Hilt → Jetpack Compose.</li>
+            <li>Migrated dependency injection from Dagger 2 to Hilt.</li>
+            <li>Migrated the UI from XML layouts to Jetpack Compose.</li>
+            <li>Implemented reactive state management using ViewModel, StateFlow, and Coroutines.</li>
+          </ul>
+          <div class="project-actions">
+            <a class="button primary" href="https://github.com/v4patil" target="_blank" rel="noopener noreferrer">View GitHub Profile</a>
+            <a class="button secondary" href="https://github.com/v4patil" target="_blank" rel="noopener noreferrer">View Source Code</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="section-card" id="skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <article class="skill-card"><h3>Languages</h3><p>Java</p><p>Kotlin</p><p>Python</p></article>
+          <article class="skill-card"><h3>Android Development</h3><p>Android SDK</p><p>Jetpack Compose</p><p>XML</p></article>
+          <article class="skill-card"><h3>Architecture &amp; Tools</h3><p>MVVM</p><p>Clean Architecture</p><p>Room / SQLite</p></article>
+          <article class="skill-card"><h3>Concurrency &amp; Networking</h3><p>Coroutines</p><p>Flow</p><p>Retrofit</p></article>
+          <article class="skill-card"><h3>Dependency Injection</h3><p>Hilt</p><p>Dagger 2</p></article>
+          <article class="skill-card"><h3>Testing &amp; Workflow</h3><p>JUnit</p><p>Mockito</p><p>Git · Android Studio · Postman</p></article>
+        </div>
+      </section>
+
+      <section class="section-card contact-section" id="contact">
+        <h2 class="section-title">Let's Connect</h2>
+        <p>I'm open to Android development opportunities and professional connections.</p>
+        <div class="project-actions">
+          <a class="button primary" href="mailto:vibhorbpatil@gmail.com">Email Me</a>
+          <a class="button secondary" href="https://www.linkedin.com/in/vibhorbpatil14/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+          <a class="button secondary" href="https://github.com/v4patil" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </section>
+
+      <footer class="footer">© <span id="year"></span> Vibhor Patil. Built with HTML, CSS and JavaScript.</footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
